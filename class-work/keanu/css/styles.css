@@ -1,0 +1,14 @@
+body {
+	background: white;
+	color: black;
+}
+li {
+	font-size: 14px; 
+	text-decoration-style: underline;
+	color: purple;
+}
+h2 {
+	font-size: 18px; 
+	text-decoration-style: none;
+	color: orange;
+}

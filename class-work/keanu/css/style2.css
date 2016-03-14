@@ -1,0 +1,17 @@
+body {
+	background: white;
+	color: black;
+}
+h1 {
+	font-size: 14px; 
+	text-decoration-style: underline;
+	color: orange;
+}
+ul {
+	font-size: 18px; 
+	text-decoration-style: none;
+	color: blue;
+}
+li: hover {
+	background-color: green;
+}
