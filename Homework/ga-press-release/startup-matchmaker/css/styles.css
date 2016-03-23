@@ -1,0 +1,44 @@
+header {
+	background-color: black;
+	overflow: auto;
+	padding: 0px 10px;
+	border-bottom: 5px solid yellow;
+
+}
+
+header h1 {
+	color: yellow;
+	float: left;
+	font-family: "Merriweather";
+
+}
+
+header nav {
+	float: right;
+	margin-top: 25px;
+	font-family: "Oswald";
+	
+}
+
+header a {
+	color: white;
+	margin-left: 5px;
+	padding: 0px;
+	text-decoration: none;
+}
+p {
+	margin: auto;
+	padding: 15px;
+	text-align: center;
+	background-color: #C6C6C6;
+	font-family: "Merriweather";
+}
+span {
+	color: red;
+}
+#span  {
+text-decoration: underline;
+}
+main {
+	background: url(../img/coworking.jpg);
+}
