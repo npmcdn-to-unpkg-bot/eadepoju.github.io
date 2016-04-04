@@ -1,0 +1,6 @@
+#box {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(blue, pink);
+  margin: 0 auto;
+}

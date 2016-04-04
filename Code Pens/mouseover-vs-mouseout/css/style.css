@@ -1,0 +1,6 @@
+#box {
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(blue, pink);
+}
