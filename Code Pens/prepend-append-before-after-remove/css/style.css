@@ -1,0 +1,17 @@
+body {
+  padding: 30px;   
+}
+
+div {
+  border: 2px solid #bbbbbb;
+  background-color: #eeeeee;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+p {
+  font: bold 12px Arial,Sans-Serif;
+  color: white;
+  padding: 5px 10px;
+  background-color: #0D6CFF;    
+}

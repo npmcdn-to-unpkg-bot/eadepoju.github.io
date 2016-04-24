@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+}
+
+button {
+  font-size: 20px;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #694489;
+  color: black;
+}
+
+button:first-of-type {
+  margin-right: 15px;
+}
+
+button:hover {
+  border-bottom: 2px solid black;
+  padding: 11px 12px;
+  cursor: pointer;
+}
