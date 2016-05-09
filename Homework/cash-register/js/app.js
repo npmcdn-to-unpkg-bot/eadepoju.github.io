@@ -15,18 +15,18 @@
 
 $(document).ready(function () {
 
-		var total = 0
+		var total = 0;
 
-	$('#entry').submit(function(event) {
-		event.preventDefault()
+	$('#entry').submit(function (event) {
+		event.preventDefault();
 
-		var newValue = $('#newEntry').val() 
-		var parseValue = parseFloat(newValue)
-		$('#entries').append('<tr><td></td></tr>' + parsedvalue + '<td><tr>' )
+		var newEntry = $('#newEntry').val(); 
+		newEntry = parseFloat(newEntry);
+		$('#entries').append('<tr><td></td><td>' + newEntry + '</td></tr>');
 	
-		total = total + parsedvalue
-		$('$total').html('$' + total)
+		total = total + newEntry
+		$('#total').html('$' + total)
 		$('#newEntry').val('')
-	})
+	});
 
 })

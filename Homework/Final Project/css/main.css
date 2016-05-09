@@ -1,0 +1,127 @@
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	color:#8FC2FF;
+	text-decoration: none;
+	outline: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+img{
+	border:none;
+}
+body {
+	overflow:hidden;
+	background:black;
+}
+h1{
+	color: white;
+	text-align: center;
+	height: 50px;
+	margin: auto;
+	padding-top: 30px;	
+	font: 50px Baskerville, Georgia, "Times New Roman", Times, serif;	
+}
+}
+#title{
+	top:0%;
+	left:5%;
+	z-index: 3;
+	position: absolute;
+}
+#content{
+	margin:0px auto;
+	height:100px;
+	width:100%;
+	bottom:0%;
+	z-index: 3;
+	background: black no-repeat 90%;
+	border-top:1px solid #000;
+	border-bottom:1px solid none;
+	position:absolute;
+}
+#contentframe{
+	overflow: hidden;
+	border-top:solid 1px none;
+	border-bottom:1px solid none;
+	height: 100%;
+	text-align:left;
+	z-index: 3;
+}
+#slidecounter{
+	float:right;
+	color:white;
+	font:16px Baskerville, Georgia, "Times New Roman", Times, serif;	
+	margin:18px 20px 10px 0;	
+}
+#slidecaption{
+	overflow: hidden;
+	float:left;
+	color:red;
+	font:22px Baskerville, Georgia, "Times New Roman", Times, serif;
+	margin:18px 20px 0 20px;
+	color: white;
+}
+#make{
+	
+	color:white;
+	font:14px Georgia, serif;
+	margin:10px 20px;
+	clear:both;
+}
+#origin{	
+	color:white;
+	font:14px Baskerville, Georgia, "Times New Roman", Times, serif;
+	margin:10px 20px 0 20px;
+	clear:both;
+}
+.stamp{
+	float: right;
+	margin: 25px 20px 0 0;
+}
+
+#navigation{
+
+}
+#prevslide{
+	position:absolute;
+	z-index: 3;
+	top: 50%; 
+	left: 0%;
+}
+#nextslide{
+	position:fixed;
+	z-index: 3;
+	top: 50%; 
+	right: 0%;
+}
+#loading {
+	position: absolute;
+	top: 49.5%; 
+	left: 49.5%;
+	z-index: 3;
+	width: 24px; 
+	height: 24px;
+	text-indent: -999em;
+	background-image: url(images/progress.gif);
+}
+#supersize{
+	position:fixed;
+}
+#supersize img, #supersize a{
+	height:40%;
+	width:40%;
+	top: 250px;
+	left: 405px;
+	position:absolute;
+	z-index: 0;
+}
+#supersize .prevslide, #supersize .prevslide img{
+	z-index: 1;
+}
+#supersize .activeslide, #supersize .activeslide img{
+	z-index: 2;
+}
